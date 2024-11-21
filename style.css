@@ -1,0 +1,44 @@
+body{
+    background-image: url(/assets/stad.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    color: wheat;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.containerz{
+    margin-top: 85px;
+    font-size: 27px;
+
+}
+
+audio{
+    display: none;
+}
+
+.futbol-icons {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.futbol-icons h1 {
+    font-size: 22px;
+    color: white;
+}
+
+.btn-outline-secondary {
+    background-color: wheat !important;
+    color: rgb(92, 70, 30) !important;
+    width: 100px;
+    border-radius: 25px;
+  }
